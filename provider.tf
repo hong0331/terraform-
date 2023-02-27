@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-northeast-2" # your region
-	shared_credentials_file= "/home/ubuntu/.aws/credentials"
+    region = "ap-northeast-2" # your region
+    # shared_credentials_file= "/home/ubuntu/.aws/credentials"
 }
